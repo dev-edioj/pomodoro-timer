@@ -43,3 +43,8 @@ body {
 .notification {
     text-align: center;
 }
+
+#timer {
+    color: white;
+    
+}

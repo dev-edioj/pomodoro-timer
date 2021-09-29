@@ -19,7 +19,7 @@ function countdown() {
         }
 
         // Cria a variável para formatar no estilo hora/cronômetro
-        horaImprimivel = '00:' + min + ':' + seg;
+        horaImprimivel = + min + ':' + seg;
         //JQuery pra setar o valor
         $("#timer").html(horaImprimivel);
 
@@ -38,4 +38,3 @@ function countdown() {
 }
 
 // Chama a função ao carregar a tela
-
